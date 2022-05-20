@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_problem_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "SubTitle": {
+      "type": "string"
+    }
+  }
+}

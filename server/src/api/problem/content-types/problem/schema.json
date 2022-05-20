@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "problems",
+  "info": {
+    "singularName": "problem",
+    "pluralName": "problems",
+    "displayName": "Problem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Price": {
+      "type": "integer",
+      "required": true
+    },
+    "Context": {
+      "type": "richtext",
+      "required": true
+    },
+    "Info": {
+      "displayName": "Info",
+      "type": "component",
+      "repeatable": false,
+      "component": "problem.info"
+    }
+  }
+}

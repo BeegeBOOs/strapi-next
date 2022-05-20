@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_problem_infos",
+  "info": {
+    "displayName": "Features",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HoursPerWeek": {
+      "displayName": "Item",
+      "type": "component",
+      "repeatable": false,
+      "component": "problem.item"
+    },
+    "ExperienceLevel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "problem.item"
+    },
+    "Duration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "problem.item"
+    },
+    "Remote": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
